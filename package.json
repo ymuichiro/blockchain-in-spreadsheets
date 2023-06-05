@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-in-spreadsheets",
+  "version": "1.0.0",
+  "description": "write data from a spreadsheet to the blockchain!",
+  "main": "./src/app.ts",
+  "scripts": {
+    "build": "clasp push"
+  },
+  "keywords": [
+    "blockchain",
+    "symbol"
+  ],
+  "author": "ym.u.ichiro@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.64",
+    "typescript": "^5.1.3"
+  }
+}
